@@ -15,24 +15,23 @@ public class MyMethod {
 		System.out.println("1. 문앞으로 이동");
 		System.out.println("2. 문열기");
 		System.out.println("3. 되돌아오기");
-		// return; //생략가능
+		// return; 생략가능
 	}
 
 	String lime() {
 		System.out.println("1. 자판기앞으로 이동");
-		System.out.println("2. 동전투입;");
+		System.out.println("2. 동전투입");
 		System.out.println("3. 커피버튼클릭");
-		// 4. 커피를 뽑아서 되돌아오기; return "4. 아메리카노" //생략불가
+		// 4. 커피를 뽑아서 되돌아오기; 
 		return "4. 아메리카노"; // 생략불가
 	}
 
-	int coin() {
+	String juwon(int coin) {
 		System.out.println("1. 자판기앞으로 이동");
 		System.out.println("2. 동전투입");
 		System.out.println("3. 콜라버튼클릭");
-
-		// 4. 콜라를 뽑아서 되돌아오기;
-		return 500; // 생략불가
+		// "4. 톡쏘는 콜라"
+		return "4. 톡쏘는 콜라"; // 생략불가
 	}
 
 }
