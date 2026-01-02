@@ -1,15 +1,17 @@
 package com.sisa;
 
 public class Comparative {
+	
 	public static void main(String[] args) {
-		int a =5;
-		int b=7;
-		System.out.println(a>b); // F
-		System.out.println(a<b); // T
-		System.out.println(a==b); // F
-		System.out.println(a!=b);// T
+		int a = 5;
+		int b = 7;
 		
-		boolean boo = a==b;
+		System.out.println(a > b); // F
+		System.out.println(a < b); // T
+		System.out.println(a == b); // F
+		System.out.println(a != b);// T
+
+		boolean boo = a == b;
 		System.out.println("boo : " + boo);
 	}
 
