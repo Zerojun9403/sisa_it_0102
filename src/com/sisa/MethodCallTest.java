@@ -32,6 +32,9 @@ public class MethodCallTest {
 
 		String resultCola = mt.juwon(1000);
 		System.out.println("resultCola : " + resultCola);
+		
+
+
 
 	}
 }
