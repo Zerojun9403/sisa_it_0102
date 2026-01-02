@@ -9,7 +9,7 @@ public class OperatorTest2 {
 //		   연도를 100 으로 나누어 나머지가 0이 아닌 경우.
 //	    2. 연도를 400으로 나누어 나머지가 0인 경우.
 
-		int year = 2028;
+		int year = 2026;
 
 		boolean isLeap = (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
 
