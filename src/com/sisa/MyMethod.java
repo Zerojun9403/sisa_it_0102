@@ -20,11 +20,11 @@ public class MyMethod {
 	
     String lime (  )
     {
-		//   1. 자판기앞으로 이동;
-		//   2. 동전투입;
-		//   3. 커피버튼클릭;
-		//   4. 커피를 뽑아서 되돌아오기; 
-     return ""; //생략불가
+    	System.out.println("1. 자판기앞으로 이동");
+    	System.out.println("2. 동전투입;");
+    	System.out.println("3. 커피버튼클릭");
+		//   4. 커피를 뽑아서 되돌아오기;  return "4. 아메리카노" //생략불가
+     return "4. 아메리카노"; // 생략불가
   }
 	
 

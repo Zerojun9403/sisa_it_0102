@@ -25,6 +25,9 @@ public class MethodCallTest {
 		
 		MyMethod mt = new MyMethod();
 		mt.gildong();
+		String coffe = mt.lime();
+		System.out.println("coffe :" + coffe);
+			
 		
 	}
 }
