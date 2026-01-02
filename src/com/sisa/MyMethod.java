@@ -17,5 +17,15 @@ public class MyMethod {
 		System.out.println("3. 되돌아오기");
 		// return; //생략가능	
 	}
+	
+    String lime (  )
+    {
+		//   1. 자판기앞으로 이동;
+		//   2. 동전투입;
+		//   3. 커피버튼클릭;
+		//   4. 커피를 뽑아서 되돌아오기; 
+     return ""; //생략불가
+  }
+	
 
 }
