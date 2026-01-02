@@ -23,7 +23,7 @@ public class ConditionTest {
 		System.out.println("오늘도 수고했어!!!!");
 		System.out.println("=============================");
 
-		boolean happy = false;
+		boolean happy = true;
 
 		if (happy) {
 			System.out.println("나는행복합니다."); // happy=t 일때 실행
