@@ -24,10 +24,14 @@ public class MethodCallTest {
 		// a.hello();
 		
 		MyMethod mt = new MyMethod();
+		
 		mt.gildong();
 		String coffe = mt.lime();
 		System.out.println("coffe :" + coffe);
 			
+		MyMethod co = new MyMethod();
+		int coin = co.coin();
+		System.out.println("coin : "+coin);
 		
 	}
 }
