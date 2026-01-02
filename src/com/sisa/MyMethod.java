@@ -1,0 +1,21 @@
+package com.sisa;
+
+public class MyMethod {
+	// 변수 선언   (맴버변수)
+	// 메서드 정의
+
+	void gildong() {  //gildong 메서드 정의, 구현
+		
+		// 1.변수 선언  (지역변수)
+		// 2.변수 초기화 
+		// 3.메서드 호출 : 가장많이사용
+		// 4.조건문 (if, switch)
+		// 5.반복문 (for, while, do~while)
+		
+		System.out.println("1. 문앞으로 이동");
+		System.out.println("2. 문열기");
+		System.out.println("3. 되돌아오기");
+		// return; //생략가능	
+	}
+
+}

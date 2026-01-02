@@ -23,5 +23,8 @@ public class MethodCallTest {
 		//==> a.hello(); A클래스에 있는 hello()메서드를 호출
 		a.hello();
 		
+		MyMethod mt = new MyMethod();
+		mt.gildong();
+		
 	}
 }
